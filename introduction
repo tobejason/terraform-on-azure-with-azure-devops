@@ -1,0 +1,13 @@
+### Build Pipeline - CI
+- Implement Build Pipeline (Continuous Integration Pipeline)
+- Use `CopyFiles` and `PublishArtifacts` Tasks in Build Pipeline
+### Release Pipelines - CD
+- Implement Deployment stages `Dev, QA, Stage and Prod`
+- In each stage implement below listed Tasks for a `Ubuntu Agent`
+ - terraform install 
+ - terraform init
+ - terraform validate
+ - terraform plan
+ - terraform apply -auto-approve
+- Test both CI CD Pipelines
+- [Azure DevOps Parallelism Free Tier Request Form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR63mUWPlq7NEsFZhkyH8jChUMlM3QzdDMFZOMkVBWU5BWFM3SDI2QlRBSC4u)
